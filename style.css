@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #423e37
+
+}
+canvas{
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border: 3px solid #e3b23c
+}
