@@ -19,9 +19,6 @@
 */
 
 
-
-
-
 (function() {
 
     //tworzenie kanwy
@@ -73,16 +70,18 @@
 
     //W celu uzyskania całego zbioru mandelbrota należy usunąć linijke 76 oraz 81 oraz w linijce 82 wpisać '/*'  a w 86 '*/' Znaki te symoblizują komentarz ogólny  
 
-    /* 
+    //Normalne oddalenie
     
     let zoomValue = 200;                                  
      let panX = 1.8,                  
          panY = 1.6;
-    */
-
-    let zoomValue = 3000; // Zoom
+         
+    //Duże przybliżenie
+         /*
+    let zoomValue = 3000;
     let panX = 0.64,
         panY = 0.69
+        */
 
  for(let x=0; x < mandelbrotCanvas.width; x++) {
         for(let y=0; y < mandelbrotCanvas.height; y++) {
