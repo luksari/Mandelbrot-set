@@ -25,8 +25,8 @@
 
     const mandelbrotCanvas = document.createElement('canvas');
     const body = document.querySelector('body');
-    mandelbrotCanvas.width = 600;
-    mandelbrotCanvas.height = 600;
+    mandelbrotCanvas.width = 1200;
+    mandelbrotCanvas.height = 1200;
     body.appendChild(mandelbrotCanvas);
     const ctx = mandelbrotCanvas.getContext('2d');
     
